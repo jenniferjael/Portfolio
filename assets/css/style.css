@@ -1,18 +1,23 @@
+
+
+
 body {
-  background-color: pink;
+  background-color: pink; /*adding a background color to all files*/
 }
 .navbar-brand {
+  /*adding some style to the navbar especially the name section*/
   background-color: pink;
   padding: 20px;
   font-weight: 150;
 }
 .HomePage {
+  /*centering all the elements of the homw page*/
   text-align: center;
 }
 .HomePage h1 {
   font-size: 75px;
   text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /*adding some style to the text in homw page*/
   color: black;
   font-weight: 100px;
   padding: 20px;
@@ -30,6 +35,8 @@ body {
   padding: 25px;
   font-size: 40px;
 }
+
+/* adding styling to aboutme page */
 .footer-margin {
   background-color: gainsboro;
   border: 10px solid darkgray;
@@ -42,6 +49,8 @@ body {
 .container h1 {
   font-style: oblique;
   text-decoration: underline;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 h4 {
   font-style: oblique;
@@ -53,7 +62,4 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 20px;
 }
-.container h1 {
-  text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+
