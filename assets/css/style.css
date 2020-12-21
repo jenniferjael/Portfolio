@@ -14,16 +14,17 @@ body {
   /*centering all the elements of the homw page*/
   text-align: center;
 }
+/*adding styling to home page title*/
 .HomePage h1 {
-  font-size: 75px;
+  font-size: 50px;
   text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /*adding some style to the text in homw page*/
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; 
   color: black;
-  font-weight: 100px;
+  font-weight: 75px;
   padding: 20px;
-  font-size: 100px;
+  font-size: 75px;
 }
-.Introduction {
+#Introduction {
   display: block;
   margin-left: auto;
   margin-right: auto;
