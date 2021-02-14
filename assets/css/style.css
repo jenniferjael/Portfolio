@@ -3,6 +3,8 @@
 
 body {
   background-color: pink; /*adding a background color to all files*/
+  
+  
 }
 .navbar-brand {
   /*adding some style to the navbar especially the name section*/
@@ -13,16 +15,23 @@ body {
 .HomePage {
   /*centering all the elements of the homw page*/
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+ 
 }
 /*adding styling to home page title*/
 .HomePage h1 {
   font-size: 50px;
   text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; 
+  font-family: 'Times New Roman', Times, serif;
   color: black;
-  font-weight: 75px;
-  padding: 20px;
-  font-size: 75px;
+  font-weight: 50px;
+  padding: 10px;
+ 
+}
+.HomePage a{
+  background-color: pink;
+  margin-bottom: 20px;
+  align-items: center;
 }
 #Introduction {
   display: block;
@@ -32,7 +41,7 @@ body {
   border: 10px solid gray;
 }
 .HomePage p {
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   padding: 25px;
   font-size: 40px;
 }
@@ -55,6 +64,8 @@ body {
 }
 h4 {
   font-style: oblique;
+  text-align: center;
+
   text-decoration: underline;
   font-size-adjust: 500px;
 }
@@ -63,4 +74,17 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 20px;
 }
-
+.github-linkedin{
+  height: 3%;
+  width: 3%;
+}
+.col-4{
+  margin-bottom: 10px;
+}
+.col-6 h3{
+  text-decoration: underline;
+  
+}
+.col-6 p{
+  background-color: lightgrey;
+}
