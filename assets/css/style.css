@@ -78,13 +78,44 @@ p {
   height: 3%;
   width: 3%;
 }
-.col-4{
-  margin-bottom: 10px;
+.col-6{
+  background-color: lightgray;
 }
-.col-6 h3{
-  text-decoration: underline;
-  
-}
+
 .col-6 p{
-  background-color: lightgrey;
+  background-color: pink;
+  border-radius: 15px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+.col-6 img{
+  margin-top: 5px;
+margin-bottom: 10px;
+border: solid;
+border-color: whitesmoke;
+border-radius: 30px;
+}
+.linksTopages{
+  border:solid;
+  background-color: whitesmoke;
+  border-color: gray;
+  color:blue;
+  border-radius: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.githubLink{
+  border:solid;
+  background-color:whitesmoke;
+  border-color: gray;
+  border-radius: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  text-align: center;
 }
