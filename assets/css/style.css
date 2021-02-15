@@ -1,10 +1,5 @@
-
-
-
 body {
   background-color: pink; /*adding a background color to all files*/
-  
-  
 }
 .navbar-brand {
   /*adding some style to the navbar especially the name section*/
@@ -15,20 +10,18 @@ body {
 .HomePage {
   /*centering all the elements of the homw page*/
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
- 
+  font-family: "Times New Roman", Times, serif;
 }
 /*adding styling to home page title*/
 .HomePage h1 {
   font-size: 50px;
   text-decoration: underline;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: 50px;
   padding: 10px;
- 
 }
-.HomePage a{
+.HomePage a {
   background-color: pink;
   margin-bottom: 20px;
   align-items: center;
@@ -41,7 +34,7 @@ body {
   border: 10px solid gray;
 }
 .HomePage p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   padding: 25px;
   font-size: 40px;
 }
@@ -74,66 +67,69 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 20px;
 }
-.github-linkedin{
+.github-linkedin {
   height: 3%;
   width: 3%;
 }
-.col-6{
+.col-6 {
   background-color: lightgray;
 }
 
-.col-6 p{
+.col-6 p {
   background-color: pink;
+  width: 100%;
   border-radius: 15px;
   color: black;
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   margin-top: 5px;
 }
-.col-6 img{
+.col-6 img {
   margin-top: 5px;
-margin-bottom: 10px;
-border: solid;
-border-color: whitesmoke;
-border-radius: 30px;
+  margin-bottom: 10px;
+  border: solid;
+  border-color: whitesmoke;
+  border-radius: 30px;
 }
-.linksTopages{
-  border:solid;
+.linksTopages {
+  border: solid;
   background-color: whitesmoke;
   border-color: gray;
-  color:blue;
-  border-radius: 200px;
+  color: blue;
+  border-radius: 50px;
   margin-left: 0%;
   margin-right: 30%;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  width: auto;
 }
-.githubLink{
-  border:solid;
-  background-color:whitesmoke;
+.githubLink {
+  border: solid;
+  background-color: whitesmoke;
   border-color: gray;
-  border-radius: 200px;
+  border-radius: 50px;
+  width: auto;
   margin-left: 0%;
   margin-right: 30%;
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center;
 }
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
   }
-  .githubLink{
+  .githubLink,
+  .linksTopages {
     width: 100%;
-    border-radius: 100px;
-    
+    border-radius: 30px;
   }
-  .linksTopages{
-    width: 100%;
-    border-radius: 100px;
-  }
-  .col-6 img{
+
+  .col-6 img {
     width: 100%;
     height: 50%;
+  }
+  #introduction {
+    width: 100%;
   }
 }
