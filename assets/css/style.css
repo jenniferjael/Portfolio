@@ -104,8 +104,8 @@ border-radius: 30px;
   border-color: gray;
   color:blue;
   border-radius: 200px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0%;
+  margin-right: 30%;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -114,8 +114,23 @@ border-radius: 30px;
   background-color:whitesmoke;
   border-color: gray;
   border-radius: 200px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0%;
+  margin-right: 30%;
   margin-top: 10px;
   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .githubLink{
+    width: 100%;
+    
+  }
+  .linksTopages{
+    width: 100%;
+  }
+  .col-6 img{
+    width: 100%;
+  }
 }
