@@ -1,93 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Title</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">My Portfolio</a>
 
-      <!-- Toggler/collapsibe Button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Title</title>
+</head>
 
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home Page</a>
-          </li>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">My Portfolio</a>
 
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About Me</a>
-          </li>
-         
-        </ul>
-      </div>
-    </nav>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home Page</a>
+        </li>
 
-    <div class="container">
-      <h1 class="display-4">Contact Me</h1>   
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>
+
+      </ul>
     </div>
+  </nav>
 
-    <br />
-    <br />
-    <!--adding a table from bootstrap to add a direct link to email me and my phone number-->
-    <table class="table table-bordered table-dark">
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td colspan="2">jenniferjael</td>
-          <td>jenniferjael@hotmail.com</td>
-          <td><a href="mailto:jenniferjael@hotmail.com">send email</a></td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td colspan="2">phone:</td>
-          <td></td>
-          <td><a href="tel: 201-732-6844">201-732-6844</a></td>
-        </tr>
-        <div class=“logosbx”>
-          <a href="https://github.com/jenniferjael" target=“_blank”><img src="assets/css/images/github.png" class="github-linkedin"
-              alt=“Github”>
-          </a>
-          <a href='https://www.linkedin.com/in/jennifer-mendez-52340498/'target=“_blank”><img
-              src='assets/css/images/linkedin.png' class="github-linkedin" alt=“linkedin”>
-          </a>
-          <a href='assets/css/images/Resume-Jennifer-Mendez.pdf'>Resume</a>
-        </div>
-      </tbody>
-    </table>
+  <div container="reachMe">
+    <h3 class="qReachme">Want to reach me?</h3>
+    <h3 class="phoneReach">Call me
+      <i class="fas fa-phone-alt" aria-hidden="true"></i>
+      <a href="tel: 201-732-6844">201-732-6844</a></td>
+    </h3>
+    <p>...or leave a message below</p>
+  </div>
+<form class="contactField">
+  <div class="form-floating mb-3">
+    <label for="floatingInput">NAME</label>
+    <input type="email" class="form-control" id="floatingInput" placeholder="NAME">
+   
+  </div>
+  <div class="form-floating mb-3">
+    <label for="floatingInput">LAST NAME</label>
+    <input type="email" class="form-control" id="floatingInput" placeholder="LAST NAME">
+  
+  </div>
+    <div class="form-floating mb-3">
+      <label for="floatingInput">EMAIL ADDRESS</label>
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    </div>
+    <div class="form-floating mb-3">
+      <label for="floatingInput">PHONE</label>
+      <input type="email" class="form-control" id="floatingInput" placeholder="phone">
+     
+    </div>
+    <div class="form-floating">
+      <label for="floatingTextarea2">COMMENTS</label>
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+        style="height: 100px"></textarea>
+    
+    </div>
+  </form>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+
+  <div class=“logosbx”>
+    <a href="https://github.com/jenniferjael" target=“_blank”><img src="assets/css/images/github.png"
+        class="github-linkedin" alt=“Github”>
+    </a>
+    <a href='https://www.linkedin.com/in/jennifer-mendez-52340498/' target=“_blank”><img
+        src='assets/css/images/linkedin.png' class="github-linkedin" alt=“linkedin”>
+    </a>
+    <a href='assets/css/images/Resume-Jennifer-Mendez.pdf'>Resume</a>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>
