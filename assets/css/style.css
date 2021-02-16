@@ -135,6 +135,9 @@ p {
   .contactField{
     width: 100%;
   }
+  ul{
+    width: 100%;
+  }
 }
 .qReachme,
 .phoneReach,
