@@ -1,31 +1,28 @@
-# Portfolio
-the goal of this project is to use bootstrap to create a functioanl application with a responsive navbar, links, and images. 
+### User Story
 
-# Directions
+As web developer is important to show your work. This project has the intention of showing the skills as future web developer and create a good impression before potential employers.
 
-to initiate the project of creating a functional portfolio, I created the following files:
+### Description
 
-* Index.html
-* Aboutme.html
-* contact.html
+This portfolio has a home page, a portfolio page, a contact page, and finnaly an about me page.
+The most remarkable page is the portfolio because this is the page where at least three projects are listed. This page also has corresponding links to a live website and a github respository.
+The about me page has a quick review of the Web Developer and highlites some of her/his skills.
+The contact page provides to the future employer an easy way to contact the qualified prospect.
 
-I utilize Bootstrap to add a navbar containg the following links:
-* home
-* about me
-* contacts
+### Tools
 
-# home page
- I added an image with alt attribute. The alternate text will appear if the image cannot be display. This alternate text provides informatiin about the picture.
+Bootstrap CSS Framework https://getbootstrap.com/docs/5.0/getting-started/introduction/.
+Visual Studio Code https://code.visualstudio.com.
+Markup Validation Service https://validator.w3.org/.
 
- # Aboutme
+### Images
 
- On this page, we find a picture of myself with a small description of who i am and my reason to join Coding Bootcamp. 
- I was able to add the image using a facebook image address followed by a paragrapgh.
+ <img src="assets/css/images/01welcomePage.png" alt='welcome page' width='50%' height='50%'>
+  <img src="assets/css/images/02aboutmePage.png" alt='about me' width='50%' height='50%'>
+   <img src="assets/css/images/03portfolioPage.png" alt='projects page' width='50%' height='50%'>
+    <img src="assets/css/images/04contactPage.png" alt='contact page' width='50%' height='50%'>
 
- # Contact Me
-On this page I added an image with the same attributes. 
-I also added rows and columns with the use of Bootstrap's grid system
-finnally, I added my personal information with hyperlinks for my phone and email.
+### Links
 
-# Conclusion
-the resul is a responsive design that works in different divices and different sizes of screens.
+### <https://github.com/jenniferjael/Portfolio>
+### <https://jenniferjael.github.io/Portfolio/>

@@ -41,9 +41,8 @@ body {
 .btnBtn {
   border: solid;
   border-radius: 5px;
-  background-color:gray;
+  background-color: blue;
   color: aliceblue;
-  padding: 10px;
 }
 
 .center {
@@ -150,7 +149,7 @@ p {
 p {
   text-align: center;
 }
-.contactField{
+.contactField {
   background-color: pink;
   color: black;
   font-weight: bold;
@@ -165,4 +164,30 @@ p {
 ul {
   display: inherit;
   text-align: right;
+}
+.html-logo {
+  color: orange;
+}
+.css-logo {
+  color: blue;
+}
+.js-logo {
+  color: yellow;
+}
+.n-js-logo {
+  color: green;
+}
+.logoSkills {
+  background-color: pink;
+  width: 20%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  border: solid;
+  border-style: inset;
+  text-align: center;
+}
+.logoSkills h5{
+  font-size: inherit;
+  font-weight: bolder;
+  text-decoration: underline;
 }
