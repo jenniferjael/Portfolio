@@ -133,7 +133,7 @@ p {
     width: 100%;
   }
   .contactField{
-    width: auto;
+    width: 100%;
   }
 }
 .qReachme,
@@ -150,4 +150,8 @@ width: 80%;
 margin-left: 150px;
 margin-right: 150px;
 margin-bottom: 20px;
+}
+ul{
+  display: inherit;
+  text-align: right;
 }
