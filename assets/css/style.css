@@ -133,9 +133,9 @@ p {
     width: 100%;
   }
   .contactField {
-    width: 30em;
-    margin-left: auto;
-    margin-right: auto;
+    width: 20em;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   ul {
     width: 100%;
@@ -144,17 +144,18 @@ p {
     width: auto;
   }
 }
+.reachMe,
 .qReachme,
 .phoneReach,
 p {
   text-align: center;
 }
-.contactField {
+.contactField{
   background-color: pink;
   color: black;
   font-weight: bold;
   border-radius: 10px;
-  width: 50em;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
