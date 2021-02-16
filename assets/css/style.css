@@ -26,7 +26,7 @@ body {
   margin-bottom: 20px;
   align-items: center;
 }
-#Introduction {
+#introduction {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,12 +38,12 @@ body {
   padding: 25px;
   font-size: 40px;
 }
-
-/* adding styling to aboutme page */
-.footer-margin {
-  background-color: gainsboro;
-  border: 10px solid darkgray;
-  margin-bottom: 0%;
+.btnBtn{
+  border: solid;
+  border-radius: 5px;
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px; 
 }
 
 .center {
@@ -138,6 +138,9 @@ p {
   ul{
     width: 100%;
   }
+  #myPicture{
+    width: auto;
+  }
 }
 .qReachme,
 .phoneReach,
@@ -145,14 +148,16 @@ p{
   text-align: center;
 }
 .contactField{
-background-color:lightgray;
+background-color:pink;
 color: black;
 font-weight: bold;
 border-radius: 10px;
-width: 80%;
-margin-left: 150px;
-margin-right: 150px;
-margin-bottom: 20px;
+width: 50em;
+margin-left: auto;
+margin-right: auto;
+}
+.form-control{
+  background-color:lightgray;
 }
 ul{
   display: inherit;
