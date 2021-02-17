@@ -38,12 +38,6 @@ body {
   padding: 25px;
   font-size: 40px;
 }
-.btnBtn {
-  border: solid;
-  border-radius: 5px;
-  background-color: blue;
-  color: aliceblue;
-}
 
 .center {
   font-style: oblique;
@@ -172,22 +166,9 @@ ul {
   color: blue;
 }
 .js-logo {
-  color: yellow;
+  color: yellowgreen;
 }
 .n-js-logo {
   color: green;
 }
-.logoSkills {
-  background-color: pink;
-  width: 20%;
-  margin-left: 10%;
-  margin-bottom: 50px;
-  border: solid;
-  border-style: inset;
-  text-align: center;
-}
-.logoSkills h5{
-  font-size: inherit;
-  font-weight: bolder;
-  text-decoration: underline;
-}
+
