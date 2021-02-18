@@ -18,8 +18,6 @@ Markup Validation Service https://validator.w3.org/.
 ### Images
 
  <img src="assets/css/images/01welcomePage.png" alt='welcome page' width='50%' height='50%'>
-  <img src="assets/css/images/02aboutmePage.png" alt='about me' width='50%' height='50%'>
-   <img src="assets/css/images/03portfolioPage.png" alt='projects page' width='50%' height='50%'>
     <img src="assets/css/images/04contactPage.png" alt='contact page' width='50%' height='50%'>
 
 ### Links

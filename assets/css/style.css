@@ -8,7 +8,7 @@ body {
   font-weight: 150;
 }
 .HomePage {
-  /*centering all the elements of the homw page*/
+  /*centering all the elements of the home page*/
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
@@ -48,66 +48,20 @@ body {
   text-decoration: underline;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+/*titles of about me page*/
 h4 {
-  font-style: oblique;
   text-align: center;
-
+font-size: 30px;
   text-decoration: underline;
-  font-size-adjust: 500px;
+  font-style: bold;
 }
-p {
-  font-weight: 600px;
+/*about me page parragraphs*/
+.col-md-8 p {
+  font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding: 20px;
-}
-.github-linkedin {
-  height: 3%;
-  width: 3%;
-}
-.col-6 {
-  background-color: lightgray;
 }
 
-.col-6 p {
-  background-color: pink;
-  width: 100%;
-  border-radius: 15px;
-  color: black;
-  font-weight: bold;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
-  margin-top: 5px;
-}
-.col-6 img {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border: solid;
-  border-color: whitesmoke;
-  border-radius: 30px;
-}
-.linksTopages {
-  border: solid;
-  background-color: whitesmoke;
-  border-color: gray;
-  color: blue;
-  border-radius: 50px;
-  margin-left: 0%;
-  margin-right: 30%;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  width: auto;
-}
-.githubLink {
-  border: solid;
-  background-color: whitesmoke;
-  border-color: gray;
-  border-radius: 50px;
-  width: auto;
-  margin-left: 0%;
-  margin-right: 30%;
-  margin-top: 5px;
-  text-align: center;
-}
+
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
@@ -132,6 +86,7 @@ p {
     width: auto;
   }
 }
+/*settings for the contact page*/
 .reachMe,
 .qReachme,
 .phoneReach,
