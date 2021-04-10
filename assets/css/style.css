@@ -128,7 +128,7 @@ ul {
  
 }
 .container-p1{
-background-color: pink;
+background-color:whitesmoke;
 border-style: ridge;
 margin:30px;
 margin-bottom: 10px;
@@ -164,7 +164,11 @@ padding: 30px;
   padding: 50px;
 }
 .badge{
+color: gray;
+background-color:pink;
 border: solid;
+border-style: inset;
 padding: 10px;
+box-shadow: rgb(209 209 213) 0px 5px 15px;
 }
 
