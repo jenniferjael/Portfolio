@@ -18,20 +18,16 @@ body {
   text-decoration: underline;
   font-family: "Times New Roman", Times, serif;
   color: black;
-  margin-top: 400px;
-  margin-bottom: 20px;
 }
 .buttonLearn {
   border-style: outset;
   border-color: lightgray;
   font-family: 'Times New Roman', Times, serif;
  font-size: 30px;
-  width: 400px;
+  width: auto;
   color: blue;
   background-color: lightgray;
-  align-items: center;
   margin-top: 100px;
-  margin-bottom: 400px;
   padding-top: 20px;
   padding-top: 20px;
   padding-right: 20px;
