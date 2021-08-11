@@ -77,10 +77,11 @@ h4 {
   }
   .col-home-pic{
     width: 100%;
-    height: 100%;
+    height: 50%;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
+    margin-top: 40px;
   }
   .colHomePage{
     width: auto;
