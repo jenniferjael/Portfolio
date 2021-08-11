@@ -74,9 +74,15 @@ h4 {
     width: auto;
     height: auto;
   }
+  .HomePage{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 .buttonLearn{
   width: auto;
   height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
   .col-6 img {
     width: 100%;
