@@ -127,12 +127,6 @@ h4 {
     height: 100%;
   }
 
-
-  .contactField {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
   ul {
     width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -148,16 +142,9 @@ h4 {
 p {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
 }
-.contactField {
-  background-color: pink;
-  color: black;
-  font-weight: bold;
-  border-radius: 10px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .form-control {
   background-color: lightgray;
 }
@@ -238,4 +225,7 @@ border-style: inset;
 padding: 10px;
 box-shadow: rgb(209 209 213) 0px 5px 15px;
 }
-
+.list-inline-item{
+  margin-left: 10%;
+  margin-right: 20%;
+}
