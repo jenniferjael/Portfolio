@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <header>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <!-- Brand -->
     <a class="navbar-brand" href="#">My Portfolio</a>
@@ -47,6 +48,7 @@
       </ul>
     </div>
   </nav>
+</header>
 
   <div container="reachMe">
     <h3 class="qReachme">Want to reach me?</h3>
@@ -57,40 +59,40 @@
     <p>...or leave a message below</p>
   </div>
 
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
 
-  <div container class="contactField">
-    <div class="form-floating mb-3">
-      <label for="floatingInput">NAME</label>
-      <input type="email" class="form-control" id="floatingInput" placeholder="NAME">
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 
-    </div>
-    <div class="form-floating mb-3">
-      <label for="floatingInput">LAST NAME</label>
-      <input type="email" class="form-control" id="floatingInput" placeholder="LAST NAME">
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "114704715925203");
+  chatbox.setAttribute("attribution", "biz_inbox");
 
-    </div>
-    <div class="form-floating mb-3">
-      <label for="floatingInput">EMAIL ADDRESS</label>
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-    </div>
-    <div class="form-floating mb-3">
-      <label for="floatingInput">PHONE</label>
-      <input type="email" class="form-control" id="floatingInput" placeholder="phone">
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v11.0'
+    });
+  };
 
-    </div>
-    <div class="form-floating">
-      <label for="floatingTextarea2">COMMENTS</label>
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-        style="height: 100px"></textarea>
-    <br/>
-    </div>
-    <div>
-      <input type="submit" class="btn btn-outline-primary btn-send" value="Send message">
-    </div>
-  </div>
-</br>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
   <ul class="list-inline mx-auto justify-content-center" style="text-align: center;">
- 
+    <a href="m.me/JCBrealEstateServices" target="_blank">
+      <i class="fa fa-messenger fa-3x" aria-hidden="true">
+      </i>
+    </a>
     <li class="list-inline-item icon">
       <a href="mailto:jjael8919@gmail.com" target="_blank">
         <i class="fas fa-envelope fa-3x" aria-hidden="true">
@@ -118,8 +120,15 @@
         </i>
       </a>
     </li>
-    
+
   </ul>
+
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
 
 
